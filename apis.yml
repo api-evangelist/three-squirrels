@@ -1,8 +1,27 @@
 aid: three-squirrels
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/three-squirrels.png
 name: Three Squirrels
-description: 'Three Squirrels is a company surfaced as a portfolio company of idg-capital and added to
-  the API Evangelist network as a stub for enrichment. Sector: consumer. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'Three Squirrels (三只松鼠) is a Chinese consumer snack company founded in
+  2012 by Zhang Liaoyuan and headquartered in Wuhu, Anhui Province. Positioned as one
+  of China''s first internet-native food brands, it sells nuts, seeds, dried fruits,
+  baked goods, and other leisure snacks primarily through e-commerce channels (Tmall,
+  JD.com, and its own storefronts) alongside a growing offline retail footprint. The
+  company is publicly listed on the Shenzhen Stock Exchange ChiNext board (stock code
+  300783). It was surfaced as a portfolio company of IDG Capital and added to the API
+  Evangelist network as a stub for enrichment; as a consumer packaged-goods retailer
+  it does not publish a public developer API, open platform, or API documentation.
+  Sector: consumer.'
 url: https://raw.githubusercontent.com/api-evangelist/three-squirrels/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,13 +31,24 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Consumer
+- Snacks
+- Food and Beverage
+- E-commerce
+- Retail
+- China
+- Consumer Packaged Goods
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 0
+  pass: local-v1
